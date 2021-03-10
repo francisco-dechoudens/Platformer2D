@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/Users/fdechoudens/Downloads/MonoGame.Samples-develop/Platformer2D/Platformer2D.Core/Content/Sounds/Music.wma</SourceFile>
+  <SourceFile>/Users/fdechoudens/Projects/Platformer2D/Platformer2D.Core/Content/Sounds/Music.wma</SourceFile>
   <SourceTime>2020-10-19T18:43:19-04:00</SourceTime>
-  <DestFile>/Users/fdechoudens/Downloads/MonoGame.Samples-develop/Platformer2D/Platformer2D.Core/Content/bin/iOS/Platformer2D/Sounds/Music.xnb</DestFile>
-  <DestTime>2021-03-08T12:53:15.073369-04:00</DestTime>
+  <DestFile>/Users/fdechoudens/Projects/Platformer2D/Platformer2D.Core/Content/bin/iOS/Platformer2D/Sounds/Music.xnb</DestFile>
+  <DestTime>2021-03-10T12:34:44.3478027-04:00</DestTime>
   <Importer>WmaImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54-04:00</ImporterTime>
   <Processor>SongProcessor</Processor>
@@ -15,6 +15,6 @@
   <Dependencies />
   <BuildAsset />
   <BuildOutput>
-    <string>/Users/fdechoudens/Downloads/MonoGame.Samples-develop/Platformer2D/Platformer2D.Core/Content/bin/iOS/Platformer2D/Sounds/Music.m4a</string>
+    <string>/Users/fdechoudens/Projects/Platformer2D/Platformer2D.Core/Content/bin/iOS/Platformer2D/Sounds/Music.m4a</string>
   </BuildOutput>
 </PipelineBuildEvent>

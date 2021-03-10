@@ -120,7 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Platformer2D.Core\Platformer2D.Core.csproj">
-      <Project>{2d825dab-0e3b-4eed-a607-b0695e59bca0}</Project>
+      <Project>{7FF6864E-6EE0-48CC-8C48-336F29E78C2D}</Project>
       <Name>Platformer2D.Core</Name>
     </ProjectReference>
   </ItemGroup>
