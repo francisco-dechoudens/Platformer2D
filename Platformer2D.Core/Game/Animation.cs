@@ -55,26 +55,27 @@ namespace Platformer2D
         /// </summary>
         public int FrameCount
         {
-            // Assume square frames.
-            get { return Texture.Width / FrameHeight; }
+            get { return frameCount; }
         }
+        int frameCount;
 
         /// <summary>
         /// Gets the width of a frame in the animation.
         /// </summary>
         public int FrameWidth
         {
-            // Assume square frames.
-            get { return Texture.Height; }
+            get { return frameWidth; }
         }
+        int frameWidth;
 
         /// <summary>
         /// Gets the height of a frame in the animation.
         /// </summary>
         public int FrameHeight
         {
-            get { return Texture.Height; }
+            get { return frameHeight; }
         }
+        int frameHeight;
 
         /// <summary>
         /// Constructors a new animation.
@@ -82,6 +83,24 @@ namespace Platformer2D
         public Animation(Texture2D texture, float frameTime, bool isLooping)
         {
             this.texture = texture;
+            this.frameTime = frameTime;
+            this.isLooping = isLooping;
+
+            SetSquareFrame();
+        }
+
+        private void SetSquareFrame()
+        {
+            this.frameHeight = this.frameWidth = Texture.Height;
+            this.frameCount = Texture.Width / Texture.Height;
+        }
+
+        public Animation(Texture2D texture, int frameCount, float frameTime, bool isLooping)
+        {
+            this.texture = texture;
+            this.frameCount = frameCount;
+            this.frameHeight = Texture.Height;
+            this.frameWidth = Texture.Width / frameCount;
             this.frameTime = frameTime;
             this.isLooping = isLooping;
         }
